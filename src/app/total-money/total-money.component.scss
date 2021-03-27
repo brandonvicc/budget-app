@@ -1,0 +1,105 @@
+//variables
+$green: rgb(3, 177, 96);
+
+h2{
+    text-align: center;
+    padding: 1%;
+
+    span{
+        color: $green
+    }
+}
+
+.income-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 180px;
+    font-size: 1.5rem;
+}
+
+.total-income-input{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    label{
+        margin-right: 2%;
+        color: $green;
+    }
+    input{
+        border: 1px solid $green;
+        color: $green;
+    }
+}
+
+.expenses-input{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    label{
+        margin-right: 2%;
+        color: rgb(255, 0, 0);
+    }
+    input{
+        border: 1px solid red;
+        color: red;
+    }
+}
+
+.form-input{
+    border: 1px solid #f6f6f6;
+    width: 200px;
+    text-align: center;
+    height: 2rem;
+    font-size: 2rem;
+}
+
+.date-input{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    label{
+        margin-right: 2%;
+    }
+    input{
+        width: 200px;
+        text-align: center;
+    }
+}
+
+.submit-btn{
+    height: 2rem;
+    background-color: $green;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+
+.submit-btn:hover{
+    border: 2px solid grey;
+    background-color: white;
+    color: $green;
+    animation: submitOnHover 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes submitOnHover{
+    0%{
+        
+        
+    }
+
+    100%{
+        
+        border-radius: 50%;
+    }
+}
+
+
+@media(min-width:641){
+    
+}

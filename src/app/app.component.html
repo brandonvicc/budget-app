@@ -1,0 +1,8 @@
+<div class="app-header-container">
+    <h1>Funds<img src="./../assets/funds-icon.png" alt=""><span>Calc</span></h1>
+</div>
+
+<app-daily-money [dailyAmount] = "dailyAmount"></app-daily-money>
+<app-total-money (changedDaily) = dailyChanged($event) [dailyAmount]='dailyAmount'></app-total-money>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,15 @@
+//variables
+$green: rgb(3, 177, 96);
+
+.app-header-container{
+    height: 150px;
+    
+    h1{
+        margin-top: 4%;
+        text-align: center;
+
+        span{
+            color:$green;
+        }
+    }
+}

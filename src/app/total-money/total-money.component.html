@@ -1,0 +1,12 @@
+<h2>Ok.. ok.. lets talk <span>dollars</span> and <span>cents</span>!</h2>
+<form class="income-form" >
+    <div class="total-income-input">
+        <label>Monthly Income:</label>
+        <input type="number" class="form-input" name='totalMoney' [(ngModel)]='model.totalMoney' placeholder="Total income for the month">
+    </div>
+    <div class="expenses-input">
+        <label>Expenses:</label>
+        <input type="number" class="form-input" name='totalExpenses' [(ngModel)]='model.totalExpenses' placeholder="All the money you have spent">
+    </div>
+    <input type="submit" class="submit-btn" value="What's my Daily Funds?" (click)="dailyChanged()">
+</form>
