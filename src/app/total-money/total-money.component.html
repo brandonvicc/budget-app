@@ -2,11 +2,11 @@
 <form class="income-form" >
     <div class="total-income-input">
         <label>Monthly Income:</label>
-        <input type="number" class="form-input" name='totalMoney' [(ngModel)]='model.totalMoney' placeholder="Total Income Monthly">
+        <input type="number" class="form-input" name='totalMoney' [(ngModel)]='model.totalMoney' placeholder="Monthly Income">
     </div>
     <div class="expenses-input">
         <label>Expenses:</label>
-        <input type="number" class="form-input" name='totalExpenses' [(ngModel)]='model.totalExpenses' placeholder="Total Expenses Monthly">
+        <input type="number" class="form-input" name='totalExpenses' [(ngModel)]='model.totalExpenses' placeholder="Monthly Expenses">
     </div>
     <input type="submit" class="submit-btn" value="What's my Daily Funds?" (click)="dailyChanged()">
 </form>
